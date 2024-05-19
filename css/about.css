@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: orange;
+}
+.top{
+	z-index: 1;
+	cursor: pointer;
+	position: sticky;
+	bottom: 10px;
+	left: 0;
+}
+.hero-image{
+	max-width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),url('../img/bg6.png');
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center 0%;
+	box-shadow: 5px 2px 18px orange;
+}
+
+.header{
+	padding: 30px;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-evenly;
+	background: transparent;
+	box-shadow: 5px 2px 18px orange;
+	
+	
+}
+.logo{
+	font-size: 50px;
+	color: orange;
+	font-family: "Dancing Script", serif, cursive;
+}
+.log1{
+	font-weight: bold;
+	color: maroon;
+}
+
+nav li{
+	font-size: 20px;
+	display: inline-block;
+	margin: 20px 20px;
+	transition: all 0.2s ease;
+}
+nav li:hover{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	border-bottom-color: red;
+}
+
+button{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: black;
+	border-style: solid;
+	border-color: maroon;
+	color: orange;
+}
+
+hr{
+	border-color: maroon;
+	
+}
+
+.title{
+	padding: 20px;
+	text-align: center;
+	color: orange;
+}
+.title h1{
+	color: orange;
+	margin: 50px;
+	margin-top: 200px;
+	font-size: 70px;
+}
+
+.left, .right, .center{
+	font-size: 40px;
+	padding: 100px;
+	margin-bottom: 200px;
+	margin-top: 200px;
+}
+
+.welcome p{
+	
+}
+
+.left{
+  
+  background-color: black;
+  text-align: left;
+  color: red;
+}
+
+.right{
+  color: orange;
+  padding: 100px;
+  background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.6)), url("../img/bg1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+
+.center{
+  color: red;
+  padding: 100px;
+  text-align: center;
+  background-color: black;
+}
+.about{
+	margin-bottom: 100px;
+}
+.crew{
+	padding: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.crew h1{
+	margin: 100px;
+	font-size: 50px;
+	color: orange;
+	
+}
+
+.crew img{
+	height: 20%;
+	width: 25%;
+	border-radius: 30%;
+	transition: all 0.1s ease;
+}
+
+footer{
+	padding: 20px;
+	border: 10px;
+	border-color: red;
+	display: flex;
+	justify-content: space-between;
+	color: orange;
+	font-size: 10px;
+}

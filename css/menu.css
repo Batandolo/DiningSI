@@ -1,0 +1,167 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: orange;
+}
+
+.hero-image{
+	max-width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),url('../img/bg6.png');
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center 0%;
+	box-shadow: 5px 2px 18px orange;
+}
+
+.header{
+	padding: 30px;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-evenly;
+	background: transparent;
+	box-shadow: 5px 2px 18px orange;
+	
+	
+}
+.logo{
+	font-size: 50px;
+	color: orange;
+	font-family: "Dancing Script", serif, cursive;
+}
+.log1{
+	font-weight: bold;
+	color: maroon;
+}
+
+nav li{
+	font-size: 20px;
+	display: inline-block;
+	margin: 20px 20px;
+	transition: all 0.2s ease;
+}
+nav li:hover{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	border-bottom-color: red;
+}
+
+button{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: black;
+	border-style: solid;
+	border-color: maroon;
+	color: orange;
+}
+
+hr{
+	border-color: maroon;
+	
+}
+.card img{
+	width: 300px;
+	max-height: 300px;
+	border-radius: 20px;
+}
+
+.fdish{
+	padding: 100px;
+	justify-content: center;
+	gap: 50px;
+	display: flex;
+	flex-direction: rows;
+}
+.Featured{
+	text-align: center;
+}
+.class{
+	margin-top: 100px;
+	color: orange;
+}
+
+.card{
+	text-align: center;
+	border-radius: 10px;
+	padding: 50px;
+	background-color: maroon;
+	color: orange;
+	transition: all 0.5s ease;
+}
+
+.card:hover{
+	transform: scale(1.1);
+	transition: all 0.3s ease;
+	border-color: orange;
+	background-color: orange;
+	color: maroon;
+	cursor: pointer;
+}
+
+.categ{
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),url('../img/bg1.png');
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 50px;
+}
+.categ h1{
+	font-size: 50px;
+}
+
+.categ ul li{
+	font-size: 20px;
+	margin: 30px;
+	display: inline-block;
+}
+
+.grid{
+	padding: 50px;
+	text-align: center;
+}
+.grid .class{
+	margin-bottom: 50px;
+	font-size: 50px;
+	
+}
+
+.dishes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;	
+	
+}
+
+.toggle{
+	z-index: 1;
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.top{
+	z-index: 1;
+	cursor: pointer;
+	position: sticky;
+	bottom: 0;
+	left: 0;
+}
+
+footer{
+	padding: 20px;
+	border: 10px;
+	border-color: red;
+	display: flex;
+	justify-content: space-between;
+	color: orange;
+	font-size: 10px;
+}
